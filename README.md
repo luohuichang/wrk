@@ -37,8 +37,9 @@
 
     -s, --script:      LuaJIT script, see SCRIPTING
 
-    -H, --header:      HTTP header to add to request, e.g. "User-Agent: wrk"
-
+    -H, --header:      HTTP header to add to request, e.g. 
+                          -H "User-Agent: wrk"
+                          -H "Connection: Close"
         --latency:     print detailed latency statistics
 
         --timeout:     record a timeout if a response is not received within
